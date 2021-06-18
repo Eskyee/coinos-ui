@@ -39,7 +39,7 @@
         </v-list-item>
       </v-card>
     </v-menu>
-    <v-btn v-else @click="window.location = `https://corporate.coinos.io/`" class="ml-auto">
+    <v-btn v-else @click="go('https://corporate.coinos.io/')" class="ml-auto">
       <v-icon left>$help</v-icon>
       About
     </v-btn>
@@ -67,6 +67,9 @@ export default {
     goHome() {
       if (this.user && this.user.id) this.$go('/home');
       else this.$go('/');
+    },
+    go(url) {
+      window.location.href = url;
     },
   },
 };
