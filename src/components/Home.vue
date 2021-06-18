@@ -10,9 +10,6 @@
       <v-btn class="flex-grow-1 mr-1 mb-1 mb-md-0 wide" @click="$go('/settings')">
         <v-icon left color="primary">$settings</v-icon><span>Setup Account</span>
       </v-btn>
-      <v-btn class="flex-grow-1 mr-1 mb-1 mb-md-0 wide" @click="$go('/about')">
-        <v-icon left color="blue lighten-2">$help</v-icon><span>About Coinos</span>
-      </v-btn>
       <v-btn class="flex-grow-1 mr-1 wide" @click="$go('/logout')">
         <v-icon left color="pink">$power</v-icon><span>Sign Out</span>
       </v-btn>

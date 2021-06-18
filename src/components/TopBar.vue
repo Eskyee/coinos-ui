@@ -19,7 +19,7 @@
         </v-btn>
       </template>
       <v-card tile class="mx-auto menu" max-width="400">
-        <v-list-item @click="$go('/about')">
+        <v-list-item @click="go('https://corporate.coinos.io/')">
           <v-list-item-action>
             <v-icon color="blue lighten-2" title="About">$help</v-icon>
           </v-list-item-action>
